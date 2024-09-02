@@ -9,3 +9,497 @@
     font-family: "Poppins", sans-serif;
     background-color: #f9f9f9;
   }
+  
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 84px;
+  }
+  
+  /* header  */
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 47px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  }
+  
+  .nav a {
+    padding: 8px 32px;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    transition: .2s;
+  }
+  
+  .nav a:hover {
+    border-radius: 40px;
+    background-color: #4ce0d7;
+    scale: 1.2;
+  }
+  
+  .nav img {
+    margin-left: 67px;
+  }
+  
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  
+    background: url(./photos/Mask\ group.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 218px;
+    padding-bottom: 148px;
+    border-radius: 20px;
+    max-width: 1272px;
+    width: 100%;
+  }
+  
+  .first-section h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .first-section h1 {
+    font-size: 46px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .first-section span {
+    background: linear-gradient(90deg, #4ce0d7 43.06%, #8ba9f4 100%);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+  }
+  
+  .first-section p {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    max-width: 494px;
+  }
+  
+  /* topics  */
+  
+  .topics-section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 87px;
+  }
+  
+  .topics-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .topic-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 85px;
+    width: max-content;
+    padding: 51px 30px 30px 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 6px 0px #0000000d;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .topic-card:hover {
+    transform: translateY(-15px);
+  }
+  
+  .topic-card:hover button {
+    background-color: black;
+    color: #4ce0d7;
+  }
+  
+  .topic-card button {
+    color: #262626;
+    padding: 10px 40px;
+    background-color: #4ce0d7;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+  }
+  
+  .line {
+    margin-bottom: 52px;
+  }
+  
+  .lingerie{
+    width: 88px;
+    height: 88px;
+ }  
+  /* second-section */
+  
+  .second-section {
+    max-width: 1204px;
+    margin: 0 auto;
+    box-shadow: 0px 6px 6px 0px #0000000d;
+    background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 97px;
+    padding-bottom: 32px;
+  }
+  
+  .second-but {
+    padding: 23px 0 289px 47px;
+    background: url(./photos/fashion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+  }
+  
+  .second-but button {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px 82px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+  }
+  
+  .second-first {
+    display: flex;
+    padding: 23px 75px 30px 64px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .second-first div {
+    display: flex;
+    gap: 133px;
+  }
+  
+  .one {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+  }
+  
+  .second-first h1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #f25e5e;
+  }
+  .one p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bcbcbc;
+  }
+  
+  .one img {
+    border-radius: 100%;
+  }
+  
+  .second-second {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-left: 64px;
+  }
+  
+  .second-second p {
+    max-width: 800px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #262626;
+  }
+  
+  .second-second h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+  }
+  
+  .second-three a {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 51px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4ce0d7;
+    width: max-content;
+  }
+  
+  /* trending section  */
+  
+  .trending-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trending-title h1 {
+    margin-bottom: 55px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .trending-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .trending-card {
+    padding-bottom: 36px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 6px 0px #0000000d;
+    background-color: white;
+  }
+  
+  .trending-button {
+    padding: 20px 0 219px 34px;
+    background: url(./photos/lifestyle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+  }
+  .trending-button-second { 
+    padding: 20px 0 219px 34px;
+    background: url(./photos/img\ 5.2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+  }
+  
+  .trending-button a {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    padding: 9px 49px;
+    background-color: #262626;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  
+  .trending-first {
+    display: flex;
+    gap: 28px;
+    margin-top: 23px;
+    align-items: center;
+    margin-left: 26px;
+    margin-bottom: 28px;
+  }
+  
+  .trending-first div {
+    display: flex;
+    gap: 167px;
+    padding-right: 90px;
+  }
+  
+  .trending-first img {
+    border-radius: 100%;
+  }
+  
+  .trending-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .trending-text h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+    max-width: 350px;
+  }
+  
+  .trending-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #262626;
+    max-width: 360px;
+  }
+  
+  .trending-arrow a {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4ce0d7;
+  }
+  
+  /* fith section */
+  
+  .fifth-section {
+    margin-top: 88px;
+    margin-bottom: 69px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 6px 0px #0000000d;
+    border-radius: 20px;
+  }
+  
+  .card-button {
+    background: url(./photos/fashion2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+  }
+
+    .two {
+    background: url(./photos/ensembles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+  }
+    .three {
+    background: url(./photos/img\ 6.3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 337px 304px 34px;
+    margin-right: 45px;
+    border-radius: 20px;
+  }
+  
+  .card-button button {
+    width: 175.44px;
+    height: 36.49px;
+    border-radius: 40px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .card-first {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+  .card-first div {
+    display: flex;
+    gap: 200px;
+  }
+  
+  .card-first img {
+    border-radius: 100%;
+  }
+  
+  .card-second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card-second h1 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .card-second p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 429px;
+    width: 100%;
+  }
+  
+  .card-third {
+    margin-top: 19px;
+    padding-top: 19px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card-third p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4ce0d7;
+  }
+  
+  /* footer  */
+  
+  footer {
+    background: #ffffff;
+    box-shadow: 6px 0px 6px 0px #0000000d;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 87px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+  }
+  
+  .footer-nav h1 {
+    margin-right: 5px;
+  }
+  
+  .footer hr {
+    margin-top: 77px;
+    margin-bottom: 34px;
+  }
+  
+  .footer-second {
+    margin-bottom: 37px;
+  }
