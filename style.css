@@ -32,6 +32,17 @@
     align-items: center;
     gap: 26px;
   }
+  .contact-us{
+    color: #262626;
+    padding: 10px 40px;
+    background-color: #4ce0d7;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+     }
   
   .nav a {
     padding: 8px 32px;
@@ -153,6 +164,29 @@
     width: 88px;
     height: 88px;
  }  
+   .spring{
+    width: 103px;
+    height: 103px;
+     }
+     .yoga{
+        width: 100px;
+        height: 100px;
+        }
+        .glow{
+        width: 100px;
+        height: 100px;
+        }
+        .ensembles{
+            width: 86px;
+            height: 86px;
+        }
+        .skincare{
+            width: 102px;
+            height: 102px;
+
+        }
+       
+
   /* second-section */
   
   .second-section {
@@ -502,4 +536,9 @@
   
   .footer-second {
     margin-bottom: 37px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+
+
   }
