@@ -1,11 +1,479 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-    background-color: #f9f9f9;
-  }
+.BG {
+  position: absolute;
+  width: 579px;
+  height: 670px;
+  top: 2166px;
+  left: 118px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+  background: #FFFFFF;
+}
+
+.pic1 {
+  position: absolute;
+  width: 579.02px;
+  height: 278.09px;
+  top: 2166.04px;
+  left: 118px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.titulai {
+  position: absolute;
+  width: 370px;
+  height: 36px;
+  top: 2075px;
+  left: 126px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  background: #ffffff;
+}
+
+.pic11 {
+  position: absolute;
+  width: 175.44px;
+  height: 36.49px;
+  top: 2187.82px;
+  left: 152.14px;
+  gap: 0px;
+}
+
+.textunia1 {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  top: 2186px;
+  left: 202px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  color:  #FFFFFF;
+}
+
+.minititulia {
+  position: absolute;
+  width: 471px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
+  width: 471px;
+  height: 94px;
+  top: 2547px;
+  left: 152px;
+  gap: 0px;
+  opacity: 0px;
+  color: #262626;
+}
+
+.profilaia  {
+  position: absolute;
+  width: 65.67px;
+  height: 50.77px;
+  top: 2467.48px;
+  left: 144.26px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.prtextunia {
+  position: absolute;
+  width: 169px;
+  height: 21px;
+  top: 2471px;
+  left: 238px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color:  #BCBCBC;
+}
+
+.tarigunia {
+  position: absolute;
+  width: 167px;
+  height: 21px;
+  top: 2471px;
+  left: 490px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #BCBCBC;
+}
+
+.grdzelitextunia {
+  position: absolute;
+  width: 464px;
+  height: 98px;
+  top: 2643px;
+  left: 153px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+}
+
+.gaecani {
+  position: absolute;
+  width: 216px;
+  height: 23px;
+  top: 2771px;
+  left: 202px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.24em;
+  text-align: left;
+  color: #4CE0D7;
+}
+
+.isari1 {
+  position: absolute;
+  width: 51px;
+  height: 39px;
+  top: 2757px;
+  left: 135px;
+  padding: 13px 14.88px 13px 14.88px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.BG2 {
+  position: absolute;
+  width: 565px;
+  height: 670px;
+  top: 2166px;
+  left: 757px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+  color: #FFFFFF;
+}
+
+
+
+.pic2 {
+  position: absolute;
+  width: 565.89px;
+  height: 278.09px;
+  top: 2166.04px;
+  left: 756.11px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.pic12 {
+  position: absolute;
+  width: 175.44px;
+  height: 36.49px;
+  top: 2187.82px;
+  left: 790.24px;
+  gap: 0px;
+}
+
+.textunia2 {
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  top: 2186px;
+  left: 844px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+.minititulia2 {
+  position: absolute;
+  width: 471px;
+  height: 94px;
+  top: 2547px;
+  left: 791px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
+  color:#262626;
+}
+
+.profilaia2 {
+  position: absolute;
+  width: 65.67px;
+  height: 50.77px;
+  top: 2467.48px;
+  left: 790.24px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.prtextunia2 {
+  position: absolute;
+  width: 168px;
+  height: 21px;
+  top: 2481px;
+  left: 877px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #BCBCBC;
+}
+
+.tarigunia2 {
+  position: absolute;
+  width: 168px;
+  height: 21px;
+  top: 2481px;
+  left: 1128px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #BCBCBC;
+}
+
+.grdzelitextunia2 {
+  position: absolute;
+  width: 463px;
+  height: 98px;
+  top: 2643px;
+  left: 792px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+}
+
+.isari2 {
+  position: absolute;
+  width: 51px;
+  height: 39px;
+  top: 2757px;
+  left: 768px;
+  padding: 13px 14.88px 13px 14.88px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.gaecani2 {
+  position: absolute;
+  width: 215px;
+  height: 23px;
+  top: 2771px;
+  left: 840px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.24em;
+  text-align: left;
+  color: #4CE0D7;
+}
+
+.fashion {
+  position: absolute;
+  width: 1204px;
+  height: 360.3px;
+  top: 1280px;
+  left: 150px;
+  gap: 0px;
+}
+
+.fashionbutton {
+  position: absolute;
+  width: 233.95px;
+  height: 36.49px;
+  top: 1304.82px;
+  left: 197.27px;
+}
+
+.fashiontext {
+  position: absolute;
+  width: 71px;
+  height: 18px;
+  top: 1302px;
+  left: 279px;
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+}
+
+.whitebg {
+  position: absolute;
+  width: 1220px;
+  height: 698px;
+  top: 1280px;
+  left: 143px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.face {
+  position: absolute;
+  width: 65.67px;
+  height: 50.77px;
+  top: 1663.65px;
+  left: 214.34px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.name {
+  position: absolute;
+  width: 168px;
+  height: 21px;
+  top: 1660px;
+  left: 301px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #BCBCBC;
+}
+
+.text {
+  position: absolute;
+  width: 216px;
+  height: 23px;
+  top: 1660px;
+  left: 1074px;
+  gap: 0px;
+  opacity: 0px;
+  color: #F25E5E;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.24em;
+  text-align: left;
+}
+
+.latetrends {
+  position: absolute;
+  width: 1044px;
+  height: 36px;
+  top: 1744px;
+  left: 214px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
+  color: #262626;
+}
+
+.maintext {
+  position: absolute;
+  width: 1033px;
+  height: 73px;
+  top: 1803px;
+  left: 214px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #262626;
+  max-width: 700px;
+  max-height: 50px;
+}
+
+.readmore {
+  position: absolute;
+  width: 215px;
+  height: 24px;
+  top: 1916px;
+  left: 263px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.24em;
+  text-align: left;
+  color: #4CE0D7;
+}
+
+.arrow-small-right {
+  position: absolute;
+  width: 51px;
+  height: 40px;
+  top: 1900px;
+  left: 201px;
+  padding: 13.33px 14.88px 13.33px 14.88px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.date {
+  position: absolute;
+  width: 167px;
+  height: 21px;
+  top: 1660px;
+  left: 518px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #BCBCBC;
+}
