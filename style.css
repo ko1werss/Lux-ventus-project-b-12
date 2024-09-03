@@ -9,3 +9,86 @@
     font-family: "Poppins", sans-serif;
     background-color: #f9f9f9;
   }
+  /* Topics section  */
+
+.second-headingLA{
+  margin-bottom: 48px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+}
+
+.Topics-cardLA{
+  width: 204px;
+  height: 291px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  position: relative;
+}
+
+.Topics-cardLA-Content{
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ButtonLA{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #262626;
+  text-decoration: none;
+  background: #4CE0D7;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.ButtonLA:hover,
+.contuctUSLA:hover{
+  background: #8BA9F4;
+  color: #FFFFFF;
+}
+
+.Topics-H-LA{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #262626;
+}
+
+.Topics-galleryLA{
+  display: flex;
+  flex-direction: wrap;
+  gap: 10px;
+  
+}
+.Topics-cardLA img{
+  width: 89px;
+  height: 89px;
+  object-fit: cover;
+}
+
+.TopicsLA{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 84px;
+  margin-bottom: 87.5px;
+}
